@@ -1,10 +1,10 @@
 
 
-git clone https://github.com/ExtraTabTeam/ExtraTab
+git clone https://github.com/KingArmin/ads
 
-cd $HOME
+cd $home
 
-cd ExtraTab
+cd ads
 
 chmod +x install
 
@@ -24,7 +24,7 @@ bot/extra-cli.lua
 
 
 
-cd ExtraTab
+cd ads
 
 killall screen
 
