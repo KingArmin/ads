@@ -1,8 +1,7 @@
--- Main Bot Framework
---MaraThon Team
+
 local M = {} 
 
--- There are chat_id, group_id, and channel_id
+
 function getChatId(id)
   local chat = {}
   local id = tostring(id)
@@ -2045,9 +2044,7 @@ end
 
 M.resolve_username = resolve_username
 
--- Forwarded message
--- @from_chat_id Chat identifier of the message to forward
--- @message_id Identifier of the message to forward
+
 local function sendForwarded(chat_id, reply_to_message_id, disable_notification, from_background, reply_markup, from_chat_id, message_id)
   local input_message_content = {
     ID = "InputMessageForwarded",
